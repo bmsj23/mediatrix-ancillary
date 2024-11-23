@@ -6,6 +6,10 @@ import FinanceChart from "../components/FinanceChart";
 import Calendar from "../components/EventCalendar";
 import Announcement from "../components/Announcement";
 
+export const metadata = {
+  title: "Dashboard", 
+};
+
 export default function page() {
   return (
     <div className="min-h-screen bg-[#F7F8FA]">
