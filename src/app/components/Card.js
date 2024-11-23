@@ -30,8 +30,8 @@ export default function Card({ type }) {
       </div>
 
       <div className="flex justify-between items-center">
-        <span className="text-[10px] bg-white px-2 py-1 rounded-full text-green-600">
-          {new Date().toLocaleDateString()}
+        <span className="text-[10px] bg-white px-2 py-1 rounded-full text-green-800 text-center">
+          {type === "sales" ? "+18% last month" : new Date().toLocaleDateString()}
         </span>
       </div>
       <h1 className="text-2xl font-semibold my-4">{cardData.value}</h1>

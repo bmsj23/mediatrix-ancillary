@@ -7,7 +7,7 @@ import Calendar from "../../components/EventCalendar";
 import Announcement from "../../components/Announcement";
 
 export const metadata = {
-  title: "Dashboard", 
+  title: "Dashboard",
 };
 
 export default function page() {
@@ -64,7 +64,7 @@ export default function page() {
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </div>
   );
 }
