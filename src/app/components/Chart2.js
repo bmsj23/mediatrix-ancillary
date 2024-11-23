@@ -6,7 +6,6 @@ import {
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-  Button,
 } from "@nextui-org/react";
 
 import { FaAngleDown } from "react-icons/fa";
@@ -38,13 +37,13 @@ export default function Chart2() {
         <div className="relative inline-block text-right">
           <Dropdown>
             <DropdownTrigger>
-              <Button
+              <button
                 variant="bordered"
                 className="capitalize border-2 hover:border-[#B5D3F3] transition-all duration-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-0 flex items-center"
               >
                 {selectedValue}
                 <FaAngleDown className="ml-2" />
-              </Button>
+              </button>
             </DropdownTrigger>
             <DropdownMenu
               aria-label="Single selection example"
@@ -81,7 +80,7 @@ export default function Chart2() {
               </DropdownItem>
               <DropdownItem
                 key="4 Weeks Ago"
-                className="cursor-pointer px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-[#B5D3F3] focus:text-gray-800  rounded-lg transition-all duration-200"
+                className="cursor-pointer px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-[#B5D3F3]  rounded-lg transition-all duration-200"
               >
                 4 Weeks Ago
               </DropdownItem>

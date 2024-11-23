@@ -13,7 +13,6 @@ export const metadata = {
 export default function page() {
   return (
     <div className="min-h-screen bg-[#F7F8FA]">
-      <Link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
       <div className="p-4 w-full">
         <div className="flex flex-col lg:flex-row gap-4">
           {/* Main Content - Left Side */}
