@@ -5,6 +5,7 @@ import Chart2 from "../../components/Chart2";
 import FinanceChart from "../../components/FinanceChart";
 import Calendar from "../../components/EventCalendar";
 import Announcement from "../../components/Announcement";
+import EventCard from "../../components/EventCard";
 
 export const metadata = {
   title: "Dashboard",
@@ -47,9 +48,24 @@ export default function page() {
             <div className="bg-white rounded-lg shadow-sm">
               <div className="p-4 h-full">
                 <h3 className="text-lg font-semibold mb-4">Calendar</h3>
-                <div className="h-[600px] overflow-y-auto custom-scrollbar">
+                <div className="h-[320px] overflow-y-auto custom-scrollbar">
                   <Calendar />
                 </div>
+              </div>
+            </div>
+
+            {/* Event Card */}
+            <div className="bg-white rounded-lg shadow-sm">
+              <div className="flex items-center justify-between p-4">
+                {" "}
+                <h1 className="text-xl font-semibold">Events</h1>
+                <h2>...</h2>
+              </div>
+              <div className="space-y-2">
+                {" "}
+                <EventCard />
+                <EventCard />
+                <EventCard />
               </div>
             </div>
 
